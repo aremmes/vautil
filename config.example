@@ -1,0 +1,92 @@
+{
+    # All the AGW credentials.
+    "agw_dsn_list": [
+        {
+            "host": "gw10.coredial.com",
+            "name": "name",
+            "pass": "password",
+            "user": "user"
+        },
+        {
+            "host": "gw11.coredial.com",
+            "name": "name",
+            "pass": "password",
+            "user": "user"
+        }
+    ],
+    "db_host": "host",
+    "db_name": "name",
+    "db_pass": "pass",
+    "db_user": "user",
+    "fs_ssh_user": "user",
+    "intl_npa_list": [
+        "242",
+        "246",
+        "264",
+        "268",
+        "284",
+        "340",
+        "345",
+        "441",
+        "473",
+        "649",
+        "664",
+        "670",
+        "671",
+        "684",
+        "721",
+        "758",
+        "767",
+        "784",
+        "787",
+        "809",
+        "829",
+        "849",
+        "868",
+        "869",
+        "876",
+        "939"
+    ],   
+    "mail_host": "localhost",
+    "threshold": {
+        "1210": {
+            "block": 50,
+            "warn": 40
+        },
+        "2431": {
+            "block": 195,
+            "warn": 185
+        },
+        "2549": {
+            "block": 50,
+            "warn": 40
+        },
+        "3150": {
+            "block": 210,
+            "warn": 200
+        },
+        "465": {
+            "block": 50,
+            "warn": 40
+        },
+        "_default_": {
+            "block": 30,
+            "warn": 15
+        }
+    },
+    "dom_npa_list": [
+        "319",
+        "605",
+        "641",
+        "712"
+    ],
+    "dom_threshold" : {
+        "_default_": {
+            "warn": 15
+        }
+    },
+    "web_host": "example.com",
+    "web_ssh_key_file": "/etc/vautil/user.key",
+    "web_ssh_user": "user",
+    "debug": false
+}
