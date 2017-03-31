@@ -138,7 +138,7 @@ International calling exceeds warning threshold for customer:
 HERE
         subject = "International warning threshold exceeded for context: #{ccr.context}"
       end
-      notify body, subject, 'support@coredial.com', 'noc-notify@coredial.com'
+      notify body, subject, 'fraud@coredial.pagerduty.com', 'support@coredial.com', 'noc-notify@coredial.com'
     end
 
     def notify_support_domestic(ccr, type, npa_list)
@@ -152,7 +152,7 @@ Domestic calling to poison NPAs (over the course of 3 hours) exceeds warning thr
 HERE
         subject = "Potential Domestic Fraud for context: #{ccr.context}"
       end
-      notify body, subject, 'support@coredial.com', 'noc-notify@coredial.com'
+      notify body, subject, 'fraud@coredial.pagerduty.com', 'support@coredial.com', 'noc-notify@coredial.com'
     end
 
     
